@@ -28,7 +28,7 @@ export default function Summary({ userAnswers }) {
       </div>
       <ol>
         {userAnswers.map((answer, index) => (
-          <UserAnswer key={answer} answer={answer} index={index} />
+          <UserAnswer key={index} answer={answer} index={index} />
         ))}
       </ol>
     </div>
