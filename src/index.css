@@ -296,11 +296,11 @@ header h1 {
 }
 
 #summary .user-answer.correct {
-  color: #054e37;
+  color: #5af59d;
 }
 
 #summary .user-answer.wrong {
-  color: #730b4b;
+  color: #f55a98;
 }
 
 #summary .user-answer.skipped {
